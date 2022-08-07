@@ -502,8 +502,8 @@
       }
     },
     "test/FoundryToken.t.sol": {
-      "lastModificationDate": 1659894150468,
-      "contentHash": "614d6c974d97837c72b72e939d2e8d50",
+      "lastModificationDate": 1659895660475,
+      "contentHash": "ccbffbb8fd786f08bd70900a14b48b5d",
       "sourceName": "test/FoundryToken.t.sol",
       "solcConfig": {
         "settings": {
@@ -542,12 +542,58 @@
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
         "lib/openzeppelin-contracts/contracts/utils/Context.sol",
-        "src/FoundryToken.sol"
+        "src/FoundryToken.sol",
+        "test/utils/Utilities.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "FoundryTokenTest": {
           "0.8.15+commit.e14f2714.Linux.gcc": "FoundryToken.t.sol/FoundryTokenTest.json"
+        }
+      }
+    },
+    "test/utils/Utilities.sol": {
+      "lastModificationDate": 1659895225420,
+      "contentHash": "faa0b540e3ad3c94c1756bc15b70168d",
+      "sourceName": "test/utils/Utilities.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Utilities": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Utilities.sol/Utilities.json"
         }
       }
     }

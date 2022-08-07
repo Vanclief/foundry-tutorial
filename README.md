@@ -21,9 +21,12 @@ Basic tutorial on how to get started with testing and deployment on foundry
 
 1.  Execute `forge test` to run the tests
 2.  Add another test to `FoundryToken.t.sol` that checks that the symbol of the token is `FTK`
-3.  Add another test to check that when transfering tokens from `alice` to `bob` the tokens are actually transfered.
+3.  Add another test to check that when transfering tokens from `alice` to `bob` the tokens are actually transfered and that `alice` balance is reduced by the amount of tokens transfered.
 
-[Documentation](https://book.getfoundry.sh/forge/tests)
+_hint_: You can use `forge test -vv` to see a more detailed output of the tests. 
+
+_hint_: You can create an array of user accounts with `address payable[] memory users = utils.createUsers(2);`
+
 
 [Step by step solution](./solutions/testing.md)
 
@@ -31,10 +34,9 @@ Basic tutorial on how to get started with testing and deployment on foundry
 
 1. Deploy and veryfy the `FoundryToken` to Goerli.
 
-[Documentation](https://book.getfoundry.sh/forge/deploying)
-
 [Step by step solution](./solutions/deploying.md)
 
 ## Resources
 
-* https://book.getfoundry.sh/
+* [Foundry test docs](https://book.getfoundry.sh/forge/tests)
+* [Foundry deployment docs](https://book.getfoundry.sh/forge/deploying)
