@@ -13,14 +13,27 @@ Basic tutorial on how to get started with testing and deployment on foundry
 
 4. Get some Goerli tokens from a [faucet](https://goerlifaucet.com/).
 
+5. Create an Etherscan account
 
 ## Challenges
 
 ### Testing a Smart Contract
 
+1.  Execute `forge test` to run the tests
+2.  Add another test to `FoundryToken.t.sol` that checks that the symbol of the token is `FTK`
+3.  Add another test to check that when transfering tokens from `alice` to `bob` the tokens are actually transfered.
+
+[Documentation](https://book.getfoundry.sh/forge/tests)
+
+[Step by step solution](./solutions/testing.md)
 
 ### Deploying a Smart Contract
 
+1. Deploy and veryfy the `FoundryToken` to Goerli.
+
+[Documentation](https://book.getfoundry.sh/forge/deploying)
+
+[Step by step solution](./solutions/deploying.md)
 
 ## Resources
 
