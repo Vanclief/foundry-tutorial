@@ -107,6 +107,16 @@ contract FoundryTokenTest is Test {
         assertEq(token.totalSupply(), 1000);
     }
 
+    function testOnlyOwner() public {
+        // Mint more tokens
+        token.mintFor(address(this), 1000);
+        assertEq(token.totalSupply(), 2000);
+
+        vm.startPrank(alice);
+        vm.expectRevert(bytes("Ownable: caller is not the owner"));
+        token.mintFor(alice, 1000);
+    }
+
     function testTransfer() public {
         // Make sure alice has 100 tokens
         assertEq(token.balanceOf(alice), 100);

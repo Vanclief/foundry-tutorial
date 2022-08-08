@@ -257,6 +257,46 @@
         }
       }
     },
+    "lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1659892877545,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Ownable": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Ownable.sol/Ownable.json"
+        }
+      }
+    },
     "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
       "lastModificationDate": 1659892877549,
       "contentHash": "92cc1aad41bdb18ca20f6e03f461de7d",
@@ -459,8 +499,8 @@
       }
     },
     "src/FoundryToken.sol": {
-      "lastModificationDate": 1659892977329,
-      "contentHash": "5be01462e04fc3455ec537d441528d4c",
+      "lastModificationDate": 1659968144386,
+      "contentHash": "cc87863a42344da34a5c4d2408697276",
       "sourceName": "src/FoundryToken.sol",
       "solcConfig": {
         "settings": {
@@ -489,6 +529,7 @@
         }
       },
       "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -502,8 +543,8 @@
       }
     },
     "test/FoundryToken.t.sol": {
-      "lastModificationDate": 1659895660475,
-      "contentHash": "ccbffbb8fd786f08bd70900a14b48b5d",
+      "lastModificationDate": 1659968506025,
+      "contentHash": "3d5b23962c2c8aeb3f9e2f605a33f87b",
       "sourceName": "test/FoundryToken.t.sol",
       "solcConfig": {
         "settings": {
@@ -538,6 +579,7 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
