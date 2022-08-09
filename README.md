@@ -32,7 +32,7 @@ _hint_: You can create an array of user accounts with `address payable[] memory 
 
 ### Deploying a Smart Contract
 
-1. Deploy and veryfy the `FoundryToken` to Goerli.
+1. Deploy and verify the `FoundryToken` to Goerli.
 
 [Step by step solution](./solutions/deploying.md)
 
