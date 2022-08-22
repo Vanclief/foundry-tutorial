@@ -1,0 +1,612 @@
+{
+  "compiler": {
+    "version": "0.8.16+commit.07a7930e"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "name": "log",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "log_address",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "uint256[]",
+            "name": "val",
+            "type": "uint256[]"
+          }
+        ],
+        "name": "log_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "int256[]",
+            "name": "val",
+            "type": "int256[]"
+          }
+        ],
+        "name": "log_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "address[]",
+            "name": "val",
+            "type": "address[]"
+          }
+        ],
+        "name": "log_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "log_bytes",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "name": "log_bytes32",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "int256",
+            "name": "",
+            "type": "int256"
+          }
+        ],
+        "name": "log_int",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "val",
+            "type": "address"
+          }
+        ],
+        "name": "log_named_address",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256[]",
+            "name": "val",
+            "type": "uint256[]"
+          }
+        ],
+        "name": "log_named_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "int256[]",
+            "name": "val",
+            "type": "int256[]"
+          }
+        ],
+        "name": "log_named_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "address[]",
+            "name": "val",
+            "type": "address[]"
+          }
+        ],
+        "name": "log_named_array",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes",
+            "name": "val",
+            "type": "bytes"
+          }
+        ],
+        "name": "log_named_bytes",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "val",
+            "type": "bytes32"
+          }
+        ],
+        "name": "log_named_bytes32",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "int256",
+            "name": "val",
+            "type": "int256"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          }
+        ],
+        "name": "log_named_decimal_int",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "val",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          }
+        ],
+        "name": "log_named_decimal_uint",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "int256",
+            "name": "val",
+            "type": "int256"
+          }
+        ],
+        "name": "log_named_int",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "val",
+            "type": "string"
+          }
+        ],
+        "name": "log_named_string",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "val",
+            "type": "uint256"
+          }
+        ],
+        "name": "log_named_uint",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "name": "log_string",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "log_uint",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "logs",
+        "type": "event"
+      },
+      {
+        "inputs": [],
+        "name": "IS_SCRIPT",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "IS_TEST",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "failed",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "setUp",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "testName",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "testOnlyOwnerCanMint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "testSupply",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "testSymbol",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "testTransfer",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "vm",
+        "outputs": [
+          {
+            "internalType": "contract Vm",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "test/FoundryToken.t.sol": "FoundryTokenTest"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":ds-test/=lib/forge-std/lib/ds-test/src/",
+      ":forge-std/=lib/forge-std/src/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ]
+  },
+  "sources": {
+    "lib/forge-std/lib/ds-test/src/test.sol": {
+      "keccak256": "0xd4cc3f57e7af003954200ec4ee92e8f189885cba55ae9cf87e7a59985d8e963e",
+      "license": "GPL-3.0-or-later",
+      "urls": [
+        "bzz-raw://64df22826aa96e9c9eaebb698f5940ecafe95d72782b60b8f6fd68f6cd023bda",
+        "dweb:/ipfs/QmSJGqC4GyyHdMUc2ViatN6wKZNBiaxRzntKH7JwM2UQ8R"
+      ]
+    },
+    "lib/forge-std/src/Script.sol": {
+      "keccak256": "0xc459d9a0d73b6bd17d6feddfe939ad57840dff4d3680c69700b7e7a968ff3a74",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://3007c9a200d88e7c67d5d8d7c86bad540b7d6da93723b2bf149a110f6445aa0f",
+        "dweb:/ipfs/QmTrrE624Ze4DXEz5UMzPRyv9eVk4P2y9goGVyGsy6WVfS"
+      ]
+    },
+    "lib/forge-std/src/Test.sol": {
+      "keccak256": "0x7fbf0f0e61136eabfd6367bfa5648a146f3464e73cf90b25cd08dd20e96c97fc",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://ac346adfa56f76ec0e736a61e7588c96afe9e7bc0730533c56a0b58890ee4b42",
+        "dweb:/ipfs/QmcR2ZtsAPGNJRDymygyKD8cBs49EVc9KikWgaw11bRsyw"
+      ]
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "keccak256": "0x0194d87bb184da4295c7174ccd3091e56605730ab07f1ba065c45cb27a255279",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://1945d01d225c4ee8def6aafcf0249264b82a86486c3dada698d786ae9156bb9f",
+        "dweb:/ipfs/QmZjWqSu2Qq76PjsBLGrDnqFJrPVj1zE8RbCj2jNLZan1Z"
+      ]
+    },
+    "lib/forge-std/src/console.sol": {
+      "keccak256": "0xbbdc11ec3a00e6b8c6c76e7f0ea46581239faee116324de4184dd0af011dd837",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://10581f46c044a7561d25d8ea203f4e89e13a807b40bf9d87520f69407447de42",
+        "dweb:/ipfs/QmSFVUzcDB9QtNyjJ5fLzi3kqKhtEbDD7TZMgbzJ9wiC63"
+      ]
+    },
+    "lib/forge-std/src/console2.sol": {
+      "keccak256": "0x01bde27c667a925905685599b65e6daf424beba80860b68187cc266350f3d704",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://18e6ba16127930324e9c4d4a42f077e1bfe38257726724859f6441e22bef35d4",
+        "dweb:/ipfs/QmbyMUzdSHWQEQcZ3Yz4j5iRhEj472cvcwHNb9Eq3esGJA"
+      ]
+    },
+    "lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
+      "keccak256": "0xee2b6bc803215b66037612da0fe9f23ec3c99ff89db4ff05449a8df17c9befc5",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://127be279bb6b2f6106127ea6b431cfc879f9018dd76b7575841821be9eef3488",
+        "dweb:/ipfs/QmfXqvL6sKx256hrVuQcSnNtirZrpm4JUbDFXwGHKgrrXU"
+      ]
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "keccak256": "0x743aecd6496301fa0dfd63a14e7ed8878be11a6ff29e19f3fec815407455e720",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://b9fcc199b42eda8f9fe2c9c013371ade870224495d4d3d230f92a8cf6f7761bc",
+        "dweb:/ipfs/QmXNRDTDwKsqrEyHprtiYgbF2FrvBZvuYN2viXbPLnLkJ9"
+      ]
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "keccak256": "0xdd286f7283325eb12ee50e41dac6be9665262e827b66f4f8952111ff77b6a130",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://567e5cfe5c64fb8c5f041393d42178447cf00880a2a2172a5a8e83131e1c24fa",
+        "dweb:/ipfs/QmY6KVSBk5xbtZuyhcQPNyJAATMZnmJ45TcBBAE7rzD5du"
+      ]
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "keccak256": "0x0270cb4e50d6bcdd780df229606076d39df796860d266b5426f374c36f34fe89",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://511db944b3f0a57b56fda90d1e466cca6a0dea2297d816251966c8f025313973",
+        "dweb:/ipfs/QmRgu5uCaKkoRr3amWGfhy6bVwhpH5tr1vynaNQyEYiE4p"
+      ]
+    },
+    "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "keccak256": "0x81d5fc973a522c8909d60be6a201869d46aa47b030b8813f60616404628c2b94",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://9755b505799e622d964a843a8ed1fd60fedffca230178e5cb95ae9280df4dcd2",
+        "dweb:/ipfs/QmRkhUYUUgRZ2QYJjmtQct2ubyYwS3bdUMhbuFYM12VfYn"
+      ]
+    },
+    "src/FoundryToken.sol": {
+      "keccak256": "0xd10cd7f7c5a769f8f76c122516ac9015478f1be9048432c368a8b81905e918e4",
+      "license": "UNLICENSED",
+      "urls": [
+        "bzz-raw://ee78476ef5b71a63d6cf13b5a12b634e8f284338fceae01b99d44bcefc92f95d",
+        "dweb:/ipfs/QmcAX15bTgCV6nwxHM1p5wAQ6fKeG1UKB84dwdvBeAx1TB"
+      ]
+    },
+    "test/FoundryToken.t.sol": {
+      "keccak256": "0x358f10fb8982abacab348a02a8c37bc890e3ea4704bfb9e79bea18fae54f9274",
+      "license": "UNLICENSED",
+      "urls": [
+        "bzz-raw://8865bab0ee228e2e81c118e8de82232f662ceaa76a3c56573244a07ca7778f35",
+        "dweb:/ipfs/QmZbZ7UdLyQXiiop93BiJtnPfKKx31qn57enRA9abWuCkw"
+      ]
+    },
+    "test/utils/Utilities.sol": {
+      "keccak256": "0x07341f52c87edba40e8fdce715357c4fb9b3942ba7f9fdb9200235fb2512d19d",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://81f52c926b8f8215ad82019d00f706f5b4ec493cbeea2de86076e0bcaa1631f2",
+        "dweb:/ipfs/QmRLx6Zf9geqJniNC6paeJihoZP7oi5wjyX61ND9NsNkJ1"
+      ]
+    }
+  },
+  "version": 1
+}
