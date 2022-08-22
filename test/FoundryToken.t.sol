@@ -56,11 +56,14 @@ contract FoundryTokenTest is Test {
         assertEq(token.symbol(), "FTK");
     }
 
-    // Transfering test
+    // Transfer test
     function testTransfer() public {
         assertEq(token.balanceOf(alice), 100);
+        // Set Alice as the sender
         vm.startPrank(alice);
+        // Transfer the tokens to Bob
         token.transfer(bob, 35);
+        // Check the balances after the transfer
         assertEq(token.balanceOf(alice), 65);
         assertEq(token.balanceOf(bob), 35);
     }
