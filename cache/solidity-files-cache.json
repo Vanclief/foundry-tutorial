@@ -2,6 +2,7 @@
   "_format": "ethers-rs-sol-cache-3",
   "paths": {
     "artifacts": "out",
+    "build_infos": "out/build-info",
     "sources": "src",
     "tests": "test",
     "scripts": "script",
@@ -11,8 +12,8 @@
   },
   "files": {
     "lib/forge-std/lib/ds-test/src/test.sol": {
-      "lastModificationDate": 1659890713457,
-      "contentHash": "962996f0e05d5218857a538a62d7c47e",
+      "lastModificationDate": 1661394628070,
+      "contentHash": "a85cb92e605e48103a5375f81c8233f2",
       "sourceName": "lib/forge-std/lib/ds-test/src/test.sol",
       "solcConfig": {
         "settings": {
@@ -32,7 +33,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -44,13 +46,13 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "test.sol/DSTest.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "test.sol\\DSTest.json"
         }
       }
     },
     "lib/forge-std/src/Script.sol": {
-      "lastModificationDate": 1659890711750,
-      "contentHash": "b313d0193442f5a12848be9c422a0064",
+      "lastModificationDate": 1661394628071,
+      "contentHash": "7d92b4b501b5bc611763f1dd981b2785",
       "sourceName": "lib/forge-std/src/Script.sol",
       "solcConfig": {
         "settings": {
@@ -70,7 +72,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -86,13 +89,13 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Script.sol/Script.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Script.sol\\Script.json"
         }
       }
     },
     "lib/forge-std/src/Test.sol": {
-      "lastModificationDate": 1659890711750,
-      "contentHash": "53ceea3c517ab4a534fd89689f36aee9",
+      "lastModificationDate": 1661394628071,
+      "contentHash": "00f6067142d557452b231a39efb16169",
       "sourceName": "lib/forge-std/src/Test.sol",
       "solcConfig": {
         "settings": {
@@ -112,7 +115,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -121,8 +125,8 @@
         }
       },
       "imports": [
-        "lib/forge-std/lib/ds-test/src/test.sol",
-        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/lib/ds-test/src\\test.sol",
+        "lib/forge-std/src\\Script.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol"
@@ -130,22 +134,22 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Test": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Test.sol/Test.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Test.sol\\Test.json"
         },
         "stdError": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Test.sol/stdError.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Test.sol\\stdError.json"
         },
         "stdMath": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Test.sol/stdMath.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Test.sol\\stdMath.json"
         },
         "stdStorage": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Test.sol/stdStorage.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Test.sol\\stdStorage.json"
         }
       }
     },
     "lib/forge-std/src/Vm.sol": {
-      "lastModificationDate": 1659890711750,
-      "contentHash": "87cafdea05acb705b59c6fa2a685d229",
+      "lastModificationDate": 1661394628072,
+      "contentHash": "8d07cba01cffc6606764c550153779be",
       "sourceName": "lib/forge-std/src/Vm.sol",
       "solcConfig": {
         "settings": {
@@ -165,7 +169,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -177,13 +182,13 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Vm.sol/Vm.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Vm.sol\\Vm.json"
         }
       }
     },
     "lib/forge-std/src/console.sol": {
-      "lastModificationDate": 1659890711750,
-      "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
+      "lastModificationDate": 1661394628073,
+      "contentHash": "c8cf989d04bc2e3069e3d91facf3b69c",
       "sourceName": "lib/forge-std/src/console.sol",
       "solcConfig": {
         "settings": {
@@ -203,7 +208,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -215,13 +221,13 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "console.sol/console.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "console.sol\\console.json"
         }
       }
     },
     "lib/forge-std/src/console2.sol": {
-      "lastModificationDate": 1659890711750,
-      "contentHash": "5df91f8e93efbfcccf68973dc1b74a70",
+      "lastModificationDate": 1661394628074,
+      "contentHash": "84e14285f3171a14073d0f81363094ac",
       "sourceName": "lib/forge-std/src/console2.sol",
       "solcConfig": {
         "settings": {
@@ -241,7 +247,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -253,13 +260,13 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "console2.sol/console2.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "console2.sol\\console2.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1659892877545,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "lastModificationDate": 1661395744393,
+      "contentHash": "dfcaf7dbfd7a80424d68eb935b3f55bf",
       "sourceName": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
       "solcConfig": {
         "settings": {
@@ -279,7 +286,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -293,13 +301,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Ownable": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Ownable.sol/Ownable.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Ownable.sol\\Ownable.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1659892877549,
-      "contentHash": "92cc1aad41bdb18ca20f6e03f461de7d",
+      "lastModificationDate": 1661395744473,
+      "contentHash": "77299f7c591ae62e3d511c28ae3469c4",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "settings": {
@@ -319,7 +327,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -335,13 +344,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "ERC20": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "ERC20.sol/ERC20.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "ERC20.sol\\ERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1659892877549,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "lastModificationDate": 1661395744474,
+      "contentHash": "da337b36f786d26e7e0826fa874f8d27",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "settings": {
@@ -361,7 +370,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -373,13 +383,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "IERC20.sol/IERC20.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "IERC20.sol\\IERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1659892877549,
-      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "lastModificationDate": 1661395744478,
+      "contentHash": "7e3e6992395030ccb281dc67c1a8ae2f",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
         "settings": {
@@ -399,7 +409,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -413,13 +424,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20Metadata": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "IERC20Metadata.sol/IERC20Metadata.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "IERC20Metadata.sol\\IERC20Metadata.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
-      "lastModificationDate": 1659892877552,
-      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "lastModificationDate": 1661395744492,
+      "contentHash": "e7f98c33ad1d39d8a6661bf0804fae36",
       "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
       "solcConfig": {
         "settings": {
@@ -439,7 +450,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -451,13 +463,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Context": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Context.sol/Context.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Context.sol\\Context.json"
         }
       }
     },
     "script/Contract.s.sol": {
-      "lastModificationDate": 1659890710126,
-      "contentHash": "3642d05d9c479368231825c40aaa276a",
+      "lastModificationDate": 1661394628185,
+      "contentHash": "f4eb8c62468835e958df7ab2af105bb9",
       "sourceName": "script/Contract.s.sol",
       "solcConfig": {
         "settings": {
@@ -477,7 +489,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -486,7 +499,7 @@
         }
       },
       "imports": [
-        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src\\Script.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol"
@@ -494,13 +507,13 @@
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "ContractScript": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Contract.s.sol/ContractScript.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Contract.s.sol\\ContractScript.json"
         }
       }
     },
     "src/FoundryToken.sol": {
-      "lastModificationDate": 1659968144386,
-      "contentHash": "cc87863a42344da34a5c4d2408697276",
+      "lastModificationDate": 1661394628186,
+      "contentHash": "35e7854cb4ecb0ca581473cf8b03606a",
       "sourceName": "src/FoundryToken.sol",
       "solcConfig": {
         "settings": {
@@ -520,7 +533,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -529,8 +543,8 @@
         }
       },
       "imports": [
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts\\contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts\\contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
         "lib/openzeppelin-contracts/contracts/utils/Context.sol"
@@ -538,13 +552,13 @@
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "FoundryToken": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "FoundryToken.sol/FoundryToken.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "FoundryToken.sol\\FoundryToken.json"
         }
       }
     },
     "test/FoundryToken.t.sol": {
-      "lastModificationDate": 1659968506025,
-      "contentHash": "3d5b23962c2c8aeb3f9e2f605a33f87b",
+      "lastModificationDate": 1661402959717,
+      "contentHash": "a1afe461a9eef47ca1980c4c61beacb3",
       "sourceName": "test/FoundryToken.t.sol",
       "solcConfig": {
         "settings": {
@@ -564,7 +578,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -573,30 +588,30 @@
         }
       },
       "imports": [
-        "lib/forge-std/lib/ds-test/src/test.sol",
-        "lib/forge-std/src/Script.sol",
-        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/lib/ds-test/src\\test.sol",
+        "lib/forge-std/src\\Script.sol",
+        "lib/forge-std/src\\Test.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts\\contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts\\contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
         "lib/openzeppelin-contracts/contracts/utils/Context.sol",
-        "src/FoundryToken.sol",
-        "test/utils/Utilities.sol"
+        "src\\FoundryToken.sol",
+        "test\\utils\\Utilities.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "FoundryTokenTest": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "FoundryToken.t.sol/FoundryTokenTest.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "FoundryToken.t.sol\\FoundryTokenTest.json"
         }
       }
     },
     "test/utils/Utilities.sol": {
-      "lastModificationDate": 1659895225420,
-      "contentHash": "faa0b540e3ad3c94c1756bc15b70168d",
+      "lastModificationDate": 1661394628187,
+      "contentHash": "1378e23bf98bf208292ff8a7dd75bcbf",
       "sourceName": "test/utils/Utilities.sol",
       "solcConfig": {
         "settings": {
@@ -616,7 +631,8 @@
                 "abi",
                 "evm.bytecode",
                 "evm.deployedBytecode",
-                "evm.methodIdentifiers"
+                "evm.methodIdentifiers",
+                "metadata"
               ]
             }
           },
@@ -625,9 +641,9 @@
         }
       },
       "imports": [
-        "lib/forge-std/lib/ds-test/src/test.sol",
-        "lib/forge-std/src/Script.sol",
-        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/lib/ds-test/src\\test.sol",
+        "lib/forge-std/src\\Script.sol",
+        "lib/forge-std/src\\Test.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol"
@@ -635,7 +651,7 @@
       "versionRequirement": ">=0.8.0",
       "artifacts": {
         "Utilities": {
-          "0.8.15+commit.e14f2714.Linux.gcc": "Utilities.sol/Utilities.json"
+          "0.8.16+commit.07a7930e.Windows.msvc": "Utilities.sol\\Utilities.json"
         }
       }
     }
