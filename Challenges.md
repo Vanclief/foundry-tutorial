@@ -27,4 +27,8 @@ Comandos que hacer
 
 ![](2022-08-25-00-14-54.png)
 
-- [X] Deploying a Smart Contract
+- [ ] Deploying a Smart Contract
+
+![](2022-08-27-02-10-41.png)
+
+Tuve el error que se muestra en la imagen, no pude resolverlo.
