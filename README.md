@@ -41,13 +41,3 @@ _hint_: You can create an array of user accounts with `address payable[] memory 
 * [Foundry test docs](https://book.getfoundry.sh/forge/tests)
 * [Foundry deployment docs](https://book.getfoundry.sh/forge/deploying)
 
-## Become a Security 
-
-Do you want to become an OpenZeppelin Security Auditor? 
-
-Join the Security Fellowship Program that starts in September.
-
-Its a full time, paid program for people with a development or security
-background.
-
-More [info here](https://grnh.se/6bae0f373us)
